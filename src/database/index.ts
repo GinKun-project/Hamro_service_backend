@@ -1,0 +1,2 @@
+export { connectDB } from '../config';
+
