@@ -1,8 +1,8 @@
 import { Response } from 'express';
-import { asyncHandler } from '../utils/asyncHandler';
-import { ApiResponse } from '../utils/ApiResponse';
-import { AuthService } from '../services/AuthService';
-import { AuthRequest } from '../middlewares/auth.middleware';
+import { asyncHandler } from '../utils/asyncHandler.js';
+import { ApiResponse } from '../utils/ApiResponse.js';
+import { AuthService } from '../services/AuthService.js';
+import { AuthRequest } from '../middlewares/auth.middleware.js';
 
 export class AuthController {
   private authService: AuthService;

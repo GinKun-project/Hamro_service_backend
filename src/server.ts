@@ -1,5 +1,5 @@
-import app from './index';
-import { connectDB, config } from './config';
+import app from './index.js';
+import { connectDB, config } from './config/index.js';
 
 const startServer = async (): Promise<void> => {
   try {

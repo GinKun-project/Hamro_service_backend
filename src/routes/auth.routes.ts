@@ -4,10 +4,10 @@ import {
   loginSchema,
   forgotPasswordSchema,
   resetPasswordSchema,
-} from '../dtos/AuthDTO';
-import { validate } from '../middlewares/validation.middleware';
-import { AuthController } from '../controllers/AuthController';
-import { authMiddleware } from '../middlewares/auth.middleware';
+} from '../dtos/AuthDTO.js';
+import { validate } from '../middlewares/validation.middleware.js';
+import { AuthController } from '../controllers/AuthController.js';
+import { authMiddleware } from '../middlewares/auth.middleware.js';
 
 const router = express.Router();
 const authController = new AuthController();

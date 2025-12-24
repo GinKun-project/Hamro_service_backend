@@ -1,5 +1,5 @@
-import { User, IUser } from '../models/User';
-import { ApiError } from '../errors/ApiError';
+import { User, IUser } from '../models/User.js';
+import { ApiError } from '../errors/ApiError.js';
 
 export class UserRepository {
   async create(userData: {

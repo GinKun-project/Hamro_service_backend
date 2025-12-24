@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
-import { ApiError } from '../errors/ApiError';
-import { config } from '../config';
+import { ApiError } from '../errors/ApiError.js';
+import { config } from '../config/index.js';
 
 export const errorMiddleware = (
   err: Error | ApiError,

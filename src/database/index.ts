@@ -1,2 +1,2 @@
-export { connectDB } from '../config';
+export { connectDB } from '../config/index.js';
 

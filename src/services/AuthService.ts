@@ -1,9 +1,9 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
-import { config } from '../config';
-import { UserRepository } from '../repositories/UserRepository';
-import { ApiError } from '../errors/ApiError';
+import { config } from '../config/index.js';
+import { UserRepository } from '../repositories/UserRepository.js';
+import { ApiError } from '../errors/ApiError.js';
 
 const SALT_ROUNDS = 10;
 
